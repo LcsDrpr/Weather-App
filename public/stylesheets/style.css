@@ -1,0 +1,101 @@
+body {
+  padding: 50px;
+  padding-left: 5px;
+  padding-right:5px;
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+p{
+  margin-bottom:0;
+  margin-top:0;
+}
+
+.container{
+  /*background-color:red;*/
+  /*height:300px;*/
+  padding:20px;
+}
+
+.row.col-sm{
+  margin-left:auto;
+}
+
+/*//formulaire*/
+.formulaire{
+  width:100%;
+  display: flex;
+  align-items: baseline;
+  margin-bottom:10px;
+}
+.formulaire input{
+  -webkit-appearance: none;
+  border:none;
+  border-radius:5px;
+  border:1px solid lightgrey;
+  padding:10px;
+}
+.formulaire button{
+  color:white;
+}
+.formulaire button:hover{
+  color:white;
+}
+.formulaire label{
+  font-size:16px;
+  font-weight: 500;
+}
+
+.container img.map{
+  /*width:auto;*/
+  height:100%;
+}
+@media screen and (max-width: 992px){
+  .container img.map{
+    width:100%;
+    height:auto;
+  }
+
+}
+
+/*// LIST GROUP*/
+li.list-group-item{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-right:0;
+}
+p.city-name{
+  padding-top:5px;
+  margin-bottom:0;
+}
+.weather{
+  padding:0;
+
+}
+.weather .info{
+  font-size:12px;
+  text-transform: capitalize;
+  padding-top: 5px;
+  /*align-items:center;*/
+}
+.weather .btn-warning,
+.weather .btn-secondary{
+  font-size:12px;
+  border-radius:3px;
+  padding:5px;
+}
+
+form.hidden{
+  padding-right:0;
+}
+button.suppr{
+  -webkit-appearance: none;
+  border:none;
+  color:#E0A801;
+  text-align: right;
+  width: 90%;
+  height: 100%;
+}
